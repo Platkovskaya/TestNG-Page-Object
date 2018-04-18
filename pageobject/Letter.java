@@ -37,7 +37,7 @@ public class Letter extends BasePage {
 		getDriver().switchTo().frame(contentFrame);
 		
 		content.clear();
-		content.sendKeys("Hello Masha! How are you? Do you like to stading java?");
+		content.sendKeys("Hello Masha! How are you? Do you like to studing java?");
 		
 		getDriver().switchTo().defaultContent();
 	}
